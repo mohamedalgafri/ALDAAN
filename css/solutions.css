@@ -1,0 +1,21 @@
+
+
+.imgsol{
+    position: relative;
+    width: 100%;
+    height: 374px;
+    top: -80px;
+}
+.imgsol img{
+    position: absolute;
+    width: 100%;
+    
+}
+@media (max-width:1200px) {
+    .imgsol img{
+        position: absolute;
+        width: 140%;
+        
+    }
+    
+}
