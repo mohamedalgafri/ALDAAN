@@ -17,17 +17,44 @@ nav_close.addEventListener('click',()=>{
 })
 
 
-var lastTop;
+///////////////////////////////////////////////
 
-function stopScrolling() {
-    lastTop = $(window).scrollTop();      
-    $('body').addClass( 'noscroll' )          
-         .css( { top: -lastTop } )        
-         ;            
-}
+var swiper = new Swiper(".mySwiper", {
+  direction: "vertical",
+  loop: true,
+  simulateTouch:false,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false
+  },
+  speed: 1000,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
 
-function continueScrolling() {                    
+//////////////////////////// mySwiper2 /////////////////////
 
-    $('body').removeClass( 'noscroll' );      
-    $(window).scrollTop( lastTop );       
-} 
+var swiper = new Swiper(".mySwiper2", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 50,
+    },
+  },
+});

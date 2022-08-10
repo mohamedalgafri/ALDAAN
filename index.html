@@ -6,111 +6,407 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/features.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
   />
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
 
-</head>
-<body class="body">
+    <!-- Demo styles -->
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&display=swap');
+
+*{
+  font-family: 'Almarai', sans-serif ;
+}
+
+.halloal{
+  height: 100vh;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+    top: 0;
+    height: 100vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ///////////////////////////////////// */
+
+    </style>
+  </head>
+
+  <body>
+
+    <body class="body">
     
-    <div class="navheder">
-        <div class="leftnavhed">
-            <div class="hednav phone">
-                <img src="imges/icons/Icon feather-phone.png" alt="">
-                <p>+966 2 605 0088</p>
+        <div class="navheder">
+            <div class="leftnavhed">
+                <div class="hednav phone">
+                    <img src="imges/icons/Icon feather-phone.png" alt="">
+                    <p>+966 2 605 0088</p>
+                </div>
+                <div class="hednav masg">
+                    <img src="imges/icons/Icon ionic-ios-mail.png" alt="">
+                    <p>info@aldaan.com</p>
+                </div>
             </div>
-            <div class="hednav masg">
-                <img src="imges/icons/Icon ionic-ios-mail.png" alt="">
-                <p>info@aldaan.com</p>
+            <div class="rightnavhed">
+                <a href="#"><img src="imges/icons/Icon awesome-facebook-f.png" alt=""></a>
+                <a href="#"><img src="imges/icons/Icon awesome-twitter.png" alt=""></a>
+                <a href="#"><img src="imges/icons/Icon awesome-linkedin-in.png" alt=""></a>
             </div>
+            
         </div>
-        <div class="rightnavhed">
-            <a href="#"><img src="imges/icons/Icon awesome-facebook-f.png" alt=""></a>
-            <a href="#"><img src="imges/icons/Icon awesome-twitter.png" alt=""></a>
-            <a href="#"><img src="imges/icons/Icon awesome-linkedin-in.png" alt=""></a>
-        </div>
-        
-    </div>
+    
+        <div class="heder">
+    
+    
+          <nav class="navv">
+    
+            <div class="logo_nav">
+              <div class="logo">
+                <a href="index.html"><img src="imges/icons/ALDAAN_w.png" alt=""></a>
+              </div>
+            </div>
+    
+            <ul class="menu_nav ">
+              <li class="active"><a href="index.html">الصفحة الرئسية</a></li>
+              <li><a href="">من نحن</a></li>
+              <li><a href="Features.html"> ميزات GRP</a></li>
+              <li><a href="solutions.html">حلول</a></li>
+              <li><a href="">عملاؤنا</a></li>
+              <li><a href="">اتصل بنا</a></li>
+            </ul>
+    
+            <div class="icon_menu">
+              <i class='bx bx-menu icon_menu'></i>
+            </div>
+            <div class="close_menu">
+              <i class='bx bx-x' ></i>
+            </div>
+    
+            <div class="search-box">
+              <button class="btn-search"><i class='bx bx-search'></i></button>
+              <input type="text" class="input-search" placeholder="اكتب للبحث...">
+            </div> 
+    
+          </nav>
 
-    <div class="heder">
 
+          <section class="textheder">
+            <p class="naldaan">ALDAAN</p>
+            <h1>صناعة البلاستيك</h1>
+            <p>يدفعنا إلى تقديم الحلول الأكثر ابتكارا في GRP وصناعة البلاستيك في المملكة العربية السعودية مع أحدث التقنيات الدولية.</p>
+            <div class="btn_text_heder">
+              <h5>تحميل الكتيب</h5>
+              <img src="imges/icons/Group 1756.png" alt="">  
+            </div>
+          </section>
 
-      <nav class="navv">
+          <section class="heder_img_dawn">
+            <div class="our_values">
+              <h1>قيمنا</h1>
+            </div>
+            <div class="cards_heder_dawn">
+              <div class="card_heder_dawn">
+                <img src="imges/icons/Group 1750.png" alt="">
+                <h5>الاحتراف</h5>
+              </div>
+              <div class="card_heder_dawn">
+                <img src="imges/icons/Group 1744.png" alt="">
+                <h5>الإبداع والابتكار</h5>
+              </div>
+              <div class="card_heder_dawn">
+                <img src="imges/icons/Group 1863.png" alt="">
+                <h5>جودة عالية</h5>
+              </div>
+              <div class="card_heder_dawn">
+                <img src="imges/icons/Group 1743.png" alt="">
+                <h5>المرونة </h5>
+              </div>
+              <div class="card_heder_dawn">
+                <img src="imges/icons/Group 1738.png" alt="">
+                <h5>التطوير المستمر</h5>
+              </div>
+            </div>
+            
+          </section>
 
-        <div class="logo_nav">
-          <div class="logo">
-            <a href="index.html"><img src="imges/icons/ALDAAN_w.png" alt=""></a>
+    
+
+    <!-- Swiper -->
+    <section class="halloal">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="imgheder">
+              <img src="imges/icons/TEST.png" alt="">
+              </div>
           </div>
+  
+          <div class="swiper-slide">
+            <div class="imgheder">
+              <img src="imges/icons/TEST.png" alt="">
+              </div>
+          </div>
+  
+          <div class="swiper-slide">
+            <div class="imgheder">
+              <img src="imges/icons/TEST.png" alt="">
+              </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="imgheder">
+              <img src="imges/icons/TEST.png" alt="">
+              </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="imgheder">
+              <img src="imges/icons/TEST.png" alt="">
+              </div>
+          </div>
+  
         </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
-        <ul class="menu_nav ">
-          <li class="active"><a href="index.html">الصفحة الرئسية</a></li>
-          <li><a href="">من نحن</a></li>
-          <li><a href="Features.html"> ميزات GRP</a></li>
-          <li><a href="solutions.html">حلول</a></li>
-          <li><a href="">عملاؤنا</a></li>
-          <li><a href="">اتصل بنا</a></li>
-        </ul>
 
-        <div class="icon_menu">
-          <i class='bx bx-menu icon_menu'></i>
+    <section class="story">
+      <div class="right_story">
+        <h1><span>قصة</span> ALDAAN </h1>
+        <p>لقد بدأنا رحلتنا في عام 1425 بشغف كبير للتصنيع 
+          وإنتاج منتجات محلية عالية الجودة لشركائنا في النمو. 
+          </p>
+          <p>
+            Aldaan هي شركة يحركها العملاء بدأت تحديها مع التحول الخام 
+            المواد في الصناعات المتكاملة تماما للمنافسة في السوق الدولية و 
+            تجاوز توقعات عملائنا. 
+          </p>
+
+
+            <h5 class="btncon_story"><a href="">اتصل بنا</a></h5>
+
+      </div>
+      <div class="left_story">
+        <img src="imges/icons/riyadh-HRS57CB.png" alt="">
+      </div>
+    </section>
+
+
+
+    <section class="composite_features">
+      <p class="abouttext">الميزات <span>المركبة</span></p>
+      <div class="cards_composite">
+          <div class="ritepop">
+              <div class="card_composite">
+                  <div class="hedcomoos">
+                      <img src="imges/icons/Group 1762.png" alt="">
+                      <h4>المرونة في</h4>
+                  </div>
+                  <div class="pep">
+                      <p>- الأشكال والأنماط</p>
+                      <p>- الجمع والأداء</p>
+                  </div>
+              </div>
+
+              <div class="card_composite">
+                  <div class="hedcomoos">
+                      <img src="imges/icons/Group 1768.png" alt="">
+                      <h4>كفاءة</h4>
+                  </div>
+                  <div class="pep">
+                      <p>- تقنيات التصنيع</p>
+                      <p>- سهولة التصنيع والتصميم</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="leftpop">
+              <div class="card_composite">
+                  <div class="hedcomoos">
+                      <img src="imges/icons/Group 1765.png" alt="">
+                      <h4>توفير التكاليف إلى</h4>
+                  </div>
+                  <div class="pep">
+                      <p>- عمر خدمة طويل</p>
+                      <p>- التكلفة التشغيلية والصيانة</p>
+                  </div>
+              </div>
+
+              <div class="card_composite">
+                  <div class="hedcomoos">
+                      <img src="imges/icons/Group 1769.png" alt="">
+                      <h4>صلابة مقارنة بخفة الوزن</h4>
+                  </div>
+                  <div class="pep">
+                      <p>- قوة رائعة للوزن </p>
+                      <p>- الأداء الحامل</p>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+      <h5 class="btncon_story"><a href="Features.html">استكشاف الخصائص المركبة</a></h5>
+
+  </section>
+
+
+  <section class="composite_solutions ">
+    <p class="abouttext"> حلول <span>مركبة</span></p>
+    <p class="textpcom">يتميز GRP بالعديد من الخصائص المفيدة التي تجعله مناسبا جدا للاستخدام
+
+      في مختلف القطاعات والتطبيقات لتلبية متطلبات عملائنا.</p>
+     
+</section>
+
+  <section class="img_composite_sol">
+    <div class="img_com_sol">
+    <a href="">  <img src="imges/icons/Group 2861.png" alt=""></a>
+      <h5>الهندسة المعمارية &
+        وسام</h5>
+    </div>
+    <div class="img_com_sol">
+     <a href=""> <img src="imges/icons/Group 1862.png" alt=""></a>
+      <h5>عرض النافذة و
+        يقف</h5>
+    </div>
+    <div class="img_com_sol">
+     <a href=""> <img src="imges/icons/Group 2863.png" alt=""></a>
+      <h5>أثاث
+        محاليل</h5>
+    </div>
+    <div class="img_com_sol">
+      <a href=""><img src="imges/icons/Group 2864.png" alt=""></a>
+      <h5>صناعي
+        منتجات</h5>
+    </div>
+    <div class="img_com_sol">
+      <a href=""><img src="imges/icons/Group 2865.png" alt=""></a>
+      <h5>البناء والتشييد
+        بناء </h5>
+    </div>
+    <div class="img_com_sol">
+      <a href=""><img src="imges/icons/Group 2866.png" alt=""></a>
+      <h5>السيارات و
+        النقل</h5>
+    </div>
+    <div class="img_com_sol">
+      <a href=""><img src="imges/icons/Group 2867.png" alt=""></a>
+      <h5>البحريه
+        التطبيقات</h5>
+    </div>
+    <div class="img_com_sol">
+      <a href=""><img src="imges/icons/Group 2868.png" alt=""></a>
+      <h5>الاعلان
+        منتجات</h5>
+    </div>
+    <div class="img_com_sol">
+     <a href=""> <img src="imges/icons/Group 2869.png" alt=""></a>
+      <h5>طيران
+        صناعة</h5>
+    </div>
+    <div class="img_com_sol">
+      <a href="#"><img src="imges/icons/Group 2870.png" alt=""></a>
+      <h5>عسكري
+        التطبيقات</h5>
+    </div>
+  </section>
+
+
+
+    <!-- <section class="composite_solutions ">
+      <p class="abouttext">عملاؤنا</p>
+      <div class="swiper mySwiper2">
+        <div class="cards_clents swiper-wrapper">
+          <div class="card_clent swiper-slide">
+            <img src="imges/icons/Kenzo_logo_white_bg.png" alt="">
+          </div>
+  
+          <div class="card_clent swiper-slide">
+            <img src="imges/icons/Kenzo_logo_white_bg2.png" alt="">
+          </div>
+  
+          <div class="card_clent swiper-slide">
+            <img src="imges/icons/Kenzo_logo_white_bg3.png" alt="">
+          </div>
+  
+          <div class="card_clent swiper-slide">
+            <img src="imges/icons/Kenzo_logo_white_bg4.png" alt="">
+          </div>
+  
+          <div class="card_clent swiper-slide">
+            <img src="imges/icons/Kenzo_logo_white_bg5.png" alt="">
+          </div>
+  
         </div>
-        <div class="close_menu">
-          <i class='bx bx-x' ></i>
-        </div>
-
-        <div class="search-box">
-          <button class="btn-search"><i class='bx bx-search'></i></button>
-          <input type="text" class="input-search" placeholder="اكتب للبحث...">
-        </div> 
-
-      </nav>
-
-
-
-
-
-
-
-
-      <div class="imgheder">
-        <img src="imges/icons/TEST.png" alt="">
       </div>
       
-    </div>
+  </section> -->
 
 
 
 
+  <footer class="footer">
+    <img src="imges/icons/مخلخمخلخ.png" alt="">
+    <ul>
+      <li><a href="">الصفحة الرئسية</a></li>
+      <li> <a href="">من نحن  </a></li>
+      <li> <a href="">ميزات GRP </a></li>
+      <li> <a href=""> حلول  </a></li>
+      <li> <a href=""> عملاؤنا </a></li>
+      <li> <a href="">اتصل بنا </a></li>
+    </ul>
+    <div class="rightnavhed">
+      <a href="#"><img src="imges/icons/Icon awesome-facebook-f.png" alt=""></a>
+      <a href="#"><img src="imges/icons/Icon awesome-twitter.png" alt=""></a>
+      <a href="#"><img src="imges/icons/Icon awesome-linkedin-in.png" alt=""></a>
+  </div>
+  </footer>
+              
 
-
-    <footer class="footer">
-      <img src="imges/icons/مخلخمخلخ.png" alt="">
-      <ul>
-        <li><a href="">الصفحة الرئسية</a></li>
-        <li> <a href="">من نحن  </a></li>
-        <li> <a href="">ميزات GRP </a></li>
-        <li> <a href=""> حلول  </a></li>
-        <li> <a href=""> عملاؤنا </a></li>
-        <li> <a href="">اتصل بنا </a></li>
-      </ul>
-      <div class="rightnavhed">
-        <a href="#"><img src="imges/icons/Icon awesome-facebook-f.png" alt=""></a>
-        <a href="#"><img src="imges/icons/Icon awesome-twitter.png" alt=""></a>
-        <a href="#"><img src="imges/icons/Icon awesome-linkedin-in.png" alt=""></a>
-    </div>
-    </footer>
-                
-
-    <script src="js/jquery library.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+  <script src="js/jquery library.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  
 </body>
 </html>

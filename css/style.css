@@ -3,6 +3,18 @@
 *{
   font-family: 'Almarai', sans-serif ;
 }
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: #173587;
+   
+}
+
+/* ///////////////////////////////////// */
+
 body{
     margin: 0;
     padding: 0;
@@ -101,10 +113,8 @@ body{
     padding-right: 5px;
 }
 
-.active{
-
-    
-
+.active a{
+    color: #6381D4;
 }
 @media (max-width:1200px) {
     .navv{
@@ -241,6 +251,7 @@ body{
     height: 100vh;
     object-fit: cover;
     object-position: center center;
+    overflow: hidden;
 }
 .imgheder img{
     width: 100%;
@@ -252,6 +263,193 @@ body{
 }
 
 
+/* ///////////////////////textheder////////////////////////// */
+
+.textheder{
+    position: absolute;
+    z-index: 33;
+    right: 80px;
+    top: 240px;
+    color: #fff;
+    line-height: 100%;
+
+}
+.textheder .naldaan{
+    font-size: 50px;
+}
+.textheder h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.btn_text_heder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #173587;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_text_heder img{
+    padding-bottom: 5px;
+}
+/* ///////////////////////card_heder_dawn////////////////////// */
+
+.heder_img_dawn{
+    position: absolute;
+    z-index: 33;
+    bottom: 0;
+    display: flex;
+    padding: 40px;
+    background-color: #00000077;
+    color: #fff;
+    width: 100%;
+    gap: 100px;
+}
+.our_values {
+    line-height: 30%;
+    width: 10%;
+}
+.our_values p{
+    font-size: 50px;
+    font-weight: 100;
+}
+.our_values h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.cards_heder_dawn{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.card_heder_dawn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ///////////////////////////story////////////////////////////////// */
+
+.story{
+    display: flex;
+    padding: 10px 60px;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.right_story{
+    width: 50%;
+}
+.right_story h1{
+    color: #173587;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.right_story h1 span{
+    font-weight: 600;
+}
+.left_story{
+    width: 50%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.left_story img{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+}
+.btncon_story{
+    background-color: #173587;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 40px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.btncon_story a{
+    text-decoration: none;
+    color: #fff;
+}
+.btncon_story a:hover{
+    color: #fff;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+.composite_solutions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+.textpcom{
+    text-align: center;
+    width: 40%;
+}
+@media (max-width:1100px) {
+    .textpcom{
+        width: 80%;
+    }
+}
+@media (max-width:500px) {
+    .textpcom{
+        width: 95%;
+    }
+}
+
+
+.img_composite_sol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img_com_sol{
+    width: 271px;
+    height: 270px;
+    background-color: #6381D4;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img_com_sol:hover h5{
+    transform: translateY(-30px);
+    transition: all .4s ease;
+}
+.img_com_sol:hover {
+    
+}
+.img_com_sol img{
+    width: 280px;
+    height: 280px;
+    position: relative;
+    object-fit: cover;
+    object-position: center center;
+}
+.img_com_sol h5{
+    position: absolute;
+    z-index: 44;
+    bottom: 7px;
+    right: 15px;
+    color: #fff;
+    transition: all .4s ease;
+}
+
+
+/* //////////////////////////////////////// */
+.cards_clents {
+    display: flex;
+    gap: 10px;
+}
+.card_clent img{
+    width: 200px;
+}
 /* //////////////footer/////////////////// */
 .footer{
     display: flex;
@@ -259,6 +457,7 @@ body{
     background-color: #173587;
     justify-content: space-between;
     align-items: center;
+
 }
 .footer ul{
     display: flex;
