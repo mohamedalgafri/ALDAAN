@@ -1,0 +1,349 @@
+
+.imgsol{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    top: -80px;
+    object-fit: cover;
+    object-position: center center;
+}
+.imgsol img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    height: 500px;
+}
+@media (max-width:1200px) {
+    .imgsol img{
+        position: absolute;
+        width: 100%;
+        
+    }
+    
+}
+
+.textppsol{
+    font-size: 20px;
+    width: 70%;
+}
+
+.about_composite{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    padding: 0px 60px;
+}
+@media (max-width:700px) {
+    .about_composite{
+        padding: 0px 30px;
+    }
+}
+.about{
+    width: 50%;
+}
+.abouttext{
+    font-size: 40px;
+    color: #173587;
+}
+.abouttext span{
+    font-size: 42px;
+    font-weight: 700 ;
+}
+.imgabout{
+    width: 50%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    object-position: center center;
+}
+.imgabout img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+@media (max-width:1200px) {
+    .about_composite{
+        flex-direction: column;
+    }
+    .imgabout{
+        width: 100%;
+        height: 300px;
+    }
+    .about{
+        width: 100%;
+    }
+}
+
+.text_heder{
+    position: absolute;
+    top: 260px;
+    right: 40px;
+    color: #fff;
+}
+.text_heder{
+    font-size: 50px;
+    line-height: 50%;
+}
+.text_heder p{
+    font-weight: 100;
+}
+.text_heder h1{
+    font-weight: 700;
+    padding-right: 5px;
+    font-size: 50px;
+}
+@media (max-width:1000px) {
+    .text_heder{
+        position: absolute;
+        top: 200px;
+
+    }
+}
+@media (max-width:500px) {
+    .text_heder{
+        position: absolute;
+        top: 200px;
+
+    }
+    .text_heder{
+        font-size: 45px;
+        line-height: 50%;
+    }
+    .text_heder h1{
+        font-weight: 700;
+        padding-right: 5px;
+        font-size: 38px;
+    }
+}
+
+
+/* ////////////////////////////////////// */
+
+.cardarttt{
+    padding: 0 60px;
+}
+
+.cardsarchte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.cardarchte{
+    width: 410px;
+    overflow: hidden;
+    position: relative;
+}
+@media (max-width:1200px) {
+    .cardarchte{
+        width: 400px;
+        overflow: hidden;
+        position: relative;
+    }
+}
+@media (max-width:400px) {
+    .cardarchte{
+        width: 350px;
+        overflow: hidden;
+        position: relative;
+    }
+}
+.cardarchte img{
+    width: 100%;
+    /* top: 0;
+    position: absolute; */
+}
+.cardarchte h5{
+   position: absolute;
+   z-index: 33;
+   bottom: 15px;
+   width: 270px;
+   right: 20px;
+   color: #fff;
+}
+@media (max-width:1200px) {
+    .cardarttt{
+        padding: 0 20px;
+    }
+
+    .cardsarchte{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.swiper-slide.swiper-slide-active {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-wrapper{
+    width: 100px;
+}
+
+.mmm img{
+    width: 800px;
+    height: 400px;
+
+}
+.nnn img{
+    width: 150px;
+    height: 100px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+      display: flex ;
+      justify-content: center !important;
+  }
+  .mySlides img{
+      margin-left: 200px;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  img {
+    margin-bottom: -4px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .flexcenter{
+      display: flex;
+  }

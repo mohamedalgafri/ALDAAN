@@ -1,0 +1,100 @@
+
+.send{
+    margin: 0 60px;
+    display: flex;
+    gap: 20px;
+}
+.send_right{
+    width: 50%;
+}
+.inpotpop{
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.send_right input{
+    width: 100%;
+    border: 1px solid rgba(100, 100, 100, 0.473);
+    padding: 8px 20px;
+}
+.textarea{
+    margin-top: 20px;
+}
+.textarea textarea{
+    border: 1px solid rgba(100, 100, 100, 0.473);
+    height: 140px;
+    width: 100%;
+    padding: 8px 20px;
+}
+.send_left {
+    margin-bottom: 30px;
+    width: 50%;
+}
+.send_left h3 {
+    text-align: center;
+
+}
+.imgmap{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.botton_send{
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    margin-top: 10px;
+}
+.botton_send h5{
+    background-color: #173587;
+    padding: 10px 40px;
+    border-radius: 4px;
+    color: #fff
+}
+.botton_send h5.clear{
+    border: 1px solid rgba(100, 100, 100, 0.473);
+    padding: 10px 40px;
+    color: black;
+    background-color: #fff;
+}
+.botton_send a{
+    text-decoration: none;
+    color: #fff;
+}
+.iconcards{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.iconcards img{
+    width: 20px;
+}
+.iconcontac{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.textpp{
+    line-height: 60%;
+}
+.send_left h4{
+   margin-bottom: 20px;
+}
+
+@media (max-width:1200px) {
+    .send{
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .send_left{
+        width: 100%;
+        justify-content: center;
+    }
+    .send_right{
+        width: 100%;
+    }
+}

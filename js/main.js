@@ -19,7 +19,7 @@ nav_close.addEventListener('click',()=>{
 
 ///////////////////////////////////////////////
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mySwiper1", {
   direction: "vertical",
   loop: true,
   simulateTouch:false,
@@ -36,25 +36,26 @@ var swiper = new Swiper(".mySwiper", {
 
 //////////////////////////// mySwiper2 /////////////////////
 
-var swiper = new Swiper(".mySwiper2", {
-  slidesPerView: 1,
-  spaceBetween: 10,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 4,
-      spaceBetween: 40,
-    },
-    1024: {
-      slidesPerView: 5,
-      spaceBetween: 50,
-    },
-  },
-});
+// var swiper = new Swiper(".mySwiper2", {
+//   slidesPerView: 1,
+//   spaceBetween: 0,
+//   loop:true,
+//   pagination: {
+//     el: ".swiper-pagination2",
+//     clickable: true,
+//   },
+//   breakpoints: {
+//     640: {
+//       slidesPerView: 2,
+//       spaceBetween: 20,
+//     },
+//     768: {
+//       slidesPerView: 4,
+//       spaceBetween: 40,
+//     },
+//     1024: {
+//       slidesPerView: 5,
+//       spaceBetween: 0,
+//     },
+//   },
+// });

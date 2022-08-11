@@ -443,13 +443,6 @@ body{
 
 
 /* //////////////////////////////////////// */
-.cards_clents {
-    display: flex;
-    gap: 10px;
-}
-.card_clent img{
-    width: 200px;
-}
 /* //////////////footer/////////////////// */
 .footer{
     display: flex;
@@ -528,4 +521,63 @@ body{
         width: 130px;
     }
 
+}
+
+
+.halloal{
+    height: 100vh;
+  }
+  .mySwiper1{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+  }
+  
+  .composite_solutions .swiper{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+  }
+
+  .swiper-pagination{
+
+  }
+
+  /* .card_clent {
+    width: 200px;
+    height: 200px;
+  } */
+  
+  .card_clent img{
+    width: 200px;
+    height: 200px;
+  }
+
+  /* .swiper-pagination{
+    margin-top: 50px;
+  } */
+  .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 20px var(--swiper-pagination-bullet-horizontal-gap,4px);
+}
+
+.flexdei{
+    display: flex;
+    gap: 20px;
+}
+.imgescard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgcompp{
+    width: 400px;
+    overflow: hidden;
+}
+.imgcompp img{
+    width: 400px;
+    overflow: hidden;
 }
