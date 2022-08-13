@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -91,7 +91,7 @@
       <div class="cardsarchte">
         
         <a href=""><div class="cardarchte ">
-          <img src="imges/icons/Group 1796.png" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+          <img src="imges/icons/Group 1796.png">
           <h5>البلاط والألواح 3D -
             لوحات فراغ3D</h5>
         </div></a>
@@ -136,13 +136,6 @@
       </div>
     </section>
 
-    <!-- Button trigger modal -->
-    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Launch demo modal
-    </button> -->
-
-
-
     <footer class="footer">
         <img src="imges/icons/مخلخمخلخ.png" alt="">
         <ul>
@@ -161,161 +154,11 @@
     </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
    
-<div dir="ltr" id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
 
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="imges/icons/Group 1823.png" style=" height: 400px;">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="imges/icons/Group 1823.png" style="height: 400px">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="imges/icons/Group 1823.png" style="height: 400px">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="imges/icons/Group 1823.png" style="height: 400px">
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-
-    <div class="flexcenter">
-          <div class="column">
-            <img class="demo cursor" src="imges/icons/Group 1823.png" style="height: 100px;" onclick="currentSlide(1)" alt="Nature and sunrise">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="imges/icons/Group 1823.png" style="height: 100px;" onclick="currentSlide(2)" alt="Snow">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="imges/icons/Group 1823.png" style="height: 100px;" onclick="currentSlide(3)" alt="Mountains and fjords">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="imges/icons/Group 1823.png" style="height: 100px;" onclick="currentSlide(4)" alt="Northern Lights">
-          </div>
-    </div>
-
-  </div>
-
-    
-<script>
-  function openModal() {
-    document.getElementById("myModal").style.display = "block";
-  }
-  
-  function closeModal() {
-    document.getElementById("myModal").style.display = "none";
-  }
-  
-  var slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    var captionText = document.getElementById("caption");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    captionText.innerHTML = dots[slideIndex-1].alt;
-  }
-  </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <div
-    style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-    class="swiper mySwiper2"
-  >
-
-    <div class="swiper-wrapper mmm">
-      <div class="swiper-slide">
-        <img src="imges/icons/Group 1823.png" />
-      </div>
-      <div class="swiper-slide">
-        <img src="imges/icons/3d tiles9.png" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-      </div>
-
-
-    </div>
-  </div>
-  <div thumbsSlider="" class="swiper mySwiper">
-    <div class="swiper-wrapper nnn">
-      <div class="swiper-slide">
-        <img src="imges/icons/Group 1823.png" />
-      </div>
-      <div class="swiper-slide">
-        <img src="imges/icons/3d tiles9.png" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-      </div>
-
-    </div>
-  </div> -->
-
-
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-    <script src="js/bootstrap.min.js"></script> -->
-    <!-- <script src="js/artchit.js"></script> -->
+    <!-- <script src="js/bootstrap.min.js"></script>
+  <script src="js/artchit.js"></script> -->
 </body>
 
 </html>

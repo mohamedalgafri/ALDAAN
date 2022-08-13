@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-</head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+  />
+  </head>
 
 <body class="body">
 
@@ -89,7 +93,7 @@
 
 
     <section class="story">
-        <div class="right_story">
+        <div class="right_story wow slideInRight" data-wow-duration="2s" >
             <div>
                 <h1><span>الهندسة المعمارية </span>  والديكور  </h1>
                 <p>
@@ -110,7 +114,7 @@
 
               <h5 class="btncon_story"><a href="">  اكتشف المزيد</a></h5>
         </div>
-        <div class="left_story">
+        <div class="left_story wow slideInLeft" data-wow-duration="2s" >
           <img src="imges/icons/011.png" alt="">
         </div>
       </section>
@@ -375,6 +379,11 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>  
+
+    <script>
+      new WOW().init();
+      </script>
 </body>
 
 </html>

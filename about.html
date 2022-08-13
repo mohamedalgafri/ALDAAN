@@ -16,7 +16,12 @@
     href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
   />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+  />
 </head>
+
 
 <body class="body">
 
@@ -92,7 +97,7 @@
 
 
     <section class="story">
-        <div class="right_story">
+        <div class="right_story wow slideInRight" data-wow-duration="2s" >
             <div class="text_aldaan_about">
                 <h1><span>قصة</span> ALDAAN </h1>
                 <p>لقد بدأنا رحلتنا في عام 1425 بشغف كبير للتصنيع 
@@ -125,15 +130,15 @@
             </div>
 
         </div>
-        <div class="left_story">
+        <div class="left_story wow slideInLeft" data-wow-duration="2s"  >
           <img src="imges/icons/riyadh-HRS57CB2.png" alt="">
         </div>
       </section>
 
-      <section class="composite_features">
+      <section class="composite_features ">
         <p class="abouttext"> <span> قيم</span> ALDAAN</p>
 
-        <div class="cards_heder_dawn">
+        <div class="cards_heder_dawn wow bounceInUp"  data-wow-duration="1s">
             <div class="card_heder_dawn">
               <img src="imges/icons/Group 1750.png" alt="">
               <h5>الاحتراف</h5>
@@ -157,7 +162,7 @@
           </div>
 
   
-        <h5 class="btncon_story"><a href="index.html">  انقر هنا للعودة إلى الصفحة الرئسية</a></h5>
+        <h5 class="btncon_story wow bounceInUp "  data-wow-duration="2s"><a href="index.html">  انقر هنا للعودة إلى الصفحة الرئسية</a></h5>
   
     </section>
 
@@ -184,7 +189,12 @@
 
 
     <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="js/main.js"></script> -->
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>  
+
+    <script>
+      new WOW().init();
+      </script>
 </body>
 
 </html>

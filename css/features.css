@@ -31,6 +31,7 @@
     gap: 20px;
     width: 100%;
     padding: 0px 60px;
+    overflow: hidden;
 }
 @media (max-width:700px) {
     .about_composite{
@@ -186,9 +187,10 @@
 }
 .therd_card_comds{
     display: flex;
-    margin: 20px 60px;
+    margin: 20px ;
     gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .card_comops img{
     width: 35px;
@@ -215,7 +217,6 @@
     align-items: center;
     padding: 60px;
 }
-
 
 
 

@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+  />
 </head>
 
 <body class="body">
@@ -84,7 +88,7 @@
 
 
     <section class="about_composite">
-        <div class="about">
+        <div class="about wow slideInRight" data-wow-duration="1s" >
             <p class="abouttext">حول <span>المركب</span></p>
             <p>تحدث المركبات ثورة في مجتمعنا وتؤثر على حياتنا اليومية من خلال منحنا منتجات للاستخدام أخف وزنا وأكثر
                 متانة وتتمتع بمرونة تصميم لا حصر لها. </p>
@@ -99,7 +103,7 @@
             <p>نحن نقدم GRP / FRP (الألياف الزجاجية تعزز البوليمر) و CRP (ألياف الكربون تعزز البوليمر) في مرافق الإنتاج
                 لدينا لخدمة العديد من التطبيقات ذات الخصائص والميزات المختلفة.</p>
         </div>
-        <div class="imgabout">
+        <div class="imgabout wow slideInLeft" data-wow-duration="1s">
             <img src="imges/icons/hexagon-pattern-background-modern-technology-and-n-HSNVQ6S.png" alt="">
         </div>
     </section>
@@ -265,6 +269,10 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script> 
+    <script>
+        new WOW().init();
+        </script>
 </body>
 
 </html>

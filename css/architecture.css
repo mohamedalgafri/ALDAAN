@@ -123,14 +123,11 @@
 
 /* ////////////////////////////////////// */
 
-.cardarttt{
-    padding: 0 60px;
-}
-
 .cardsarchte{
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
+
 }
 .cardarchte{
     width: 410px;
@@ -347,3 +344,67 @@
   .flexcenter{
       display: flex;
   }
+
+
+  /* ///////////////// modal /////////////// */
+
+
+  #the_img{
+    width: 400px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+#the_img:hover{
+    opacity: 0.8;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal .close{
+    position: absolute;
+    top:10px;
+    right: 30px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.modal .modal-content{
+    width: 60%;
+    display: block;
+    margin: 40px auto;
+}
+
+.modal .modal-content ,
+.modal #caption {
+    animation: zomming 0.6s;
+}
+
+#caption{
+    width: 60%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+@keyframes zomming {
+    0% {
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
